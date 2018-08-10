@@ -938,10 +938,22 @@ pre {
   margin-bottom: 10px;
 }
 .widget .social a:hover {
-  background: #e67e22;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+.widget .social a:nth-child(1):hover {
+  background: #363434;
+}
+.widget .social a:nth-child(2):hover {
+  background: #F4AB04;
+}
+.widget .social a:nth-child(3):hover {
+  background: #F94504;
+}
+.widget .social a:nth-child(4):hover {
+  background: #81D740;
+}
+
 .widget .social a:last-child {
   margin-right: 0px;
 }

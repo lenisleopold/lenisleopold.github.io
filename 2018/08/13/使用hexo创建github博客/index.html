@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <!--Setting-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="apple-mobile-web-app-capable" content="leopold&#39;s site">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="browsermode" content="application">
+    <meta name="screen-orientation" content="portrait">
+    <link rel="dns-prefetch" href="https://lenisleopold.github.io">
+    <!--SEO-->
+
+<meta name="description" content="web html5 javascript"/>
+
+
+
+
+
+<meta name="robots" content="all" />
+<meta name="google" content="all" />
+<meta name="googlebot" content="all" />
+<meta name="verify" content="all" />
+    <!--Title-->
+
+
+<title>使用hexo创建github博客 | leopold&#39;s site</title>
+
+
+    <link rel="alternate" href="/atom.xml" title="leopold&#39;s site" type="application/atom+xml">
+
+
+    <link rel="icon" href="/favicon.ico">
+
+    
+
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css?rev=3.3.7">
+<link rel="stylesheet" href="/css/font-awesome.min.css?rev=4.5.0">
+<link rel="stylesheet" href="/css/style.css?rev=@@hash">
+
+
+
+
+    
+	<div class="hide">
+		<script type="text/javascript">
+			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan class='cnzz_stat_icon_1263868967 hide' %3E%3Cscript%20src%3D%22https%3A%2F%2Fs95.cnzz.com%2Fz_stat.php%3Fweb_id%3D1272564536%22%3E%3C%2Fscript%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1263868967%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	</div>
+
+
+
+
+
+
+    
+
+</head>
+
+
+<!--[if lte IE 8]>
+<style>
+    html{ font-size: 1em }
+</style>
+<![endif]-->
+<!--[if lte IE 9]>
+<div style="ie">你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。</div>
+<![endif]-->
+
+<body>
+    <header class="main-header"  style="background-image:url(http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/banner.jpg)"  >
+    <div class="main-header-box">
+        <a class="header-avatar" href="/" title='梁朕'>
+            <img src="/img/avatar.jpg" alt="logo头像" class="img-responsive center-block">
+        </a>
+        <div class="branding">
+        	<!--<h2 class="text-hide">Snippet主题,从未如此简单有趣</h2>-->
+            
+                <h2> keep moving </h2>
+            
+    	</div>
+    </div>
+</header>
+    <nav class="main-navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-header"><span class="nav-toggle-button collapsed pull-right" data-toggle="collapse" data-target="#main-menu" id="mnav">
+                    <span class="sr-only"></span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                    <a class="navbar-brand" href="https://lenisleopold.github.io">leopold&#39;s site</a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="menu">
+                        
+                            <li role="presentation" class="text-center">
+                                <a href="/"><i class="fa "></i>首页</a>
+                            </li>
+                        
+                            <li role="presentation" class="text-center">
+                                <a href="/categories/前端/"><i class="fa "></i>前端</a>
+                            </li>
+                        
+                            <li role="presentation" class="text-center">
+                                <a href="/categories/后端/"><i class="fa "></i>后端</a>
+                            </li>
+                        
+                            <li role="presentation" class="text-center">
+                                <a href="/categories/工具/"><i class="fa "></i>工具</a>
+                            </li>
+                        
+                            <li role="presentation" class="text-center">
+                                <a href="/archives/"><i class="fa "></i>时间轴</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <section class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="使用hexo创建github博客">
+            
+	            使用hexo创建github博客
+            
+        </h1>
+        <div class="post-meta">
+    
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        <a href="/categories/前端周边">
+            前端周边
+        </a>
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+                
+                    <a href="/tags/github" title='github'>
+                        github
+                    </a>
+                
+                    <a href="/tags/markdown" title='markdown'>
+                        markdown
+                    </a>
+                
+                    <a href="/tags/博客" title='博客'>
+                        博客
+                    </a>
+                
+            
+        </span>
+    </span>
+    
+
+    
+        
+        <span class="fa-wrap">
+            <i class="fa fa-clock-o"></i>
+            <span class="date-meta">2018/08/13</span>
+        </span>
+    
+</div>
+
+            
+            
+    </div>
+    
+    <div class="post-body post-content">
+        <p>1：要先拥有一个<a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a> 空间, 这个很简单，请自行百度。</p>
+<hr>
+<p>2：安装node，yarn(不必须，用npm 也可以)</p>
+<hr>
+<p>3：安装 <strong>hexo-cli</strong>   <code>yarn global add hexo-cli</code><br>      安装一些插件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-server hexo-deployer-git hexo-generator-archive hexo-generator-category hexo-generator-index hexo-generator-json-content@2.2.0 hexo-generator-tag</span><br><span class="line">yarn add hexo-renderer-ejs hexo-renderer-less hexo-renderer-jade hexo-renderer-maked hexo-renderer-stylus</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p>4：创建项目<br><code>hexo init &lt;项目名称&gt;</code>新建一个网站<br><code>cd &lt;项目名称&gt;</code><br><code>yarn install</code></p>
+<hr>
+<p>5，网站的配置文件 <strong>_config.yml</strong><br>详细参数参见<a href="https://hexo.io/zh-cn/docs/configuration" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/configuration</a></p>
+<hr>
+<p>6，上传配置<br>在 <strong>_config.yml</strong> 中修改参数，一个正确的部署配置中至少要有 type 参数</p>
+<p>同时使用多个 deployer，Hexo 会依照顺序执行每个 deployer，repo即上传地址<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  -type: git</span><br><span class="line">   repo: https://github.com/username/username.github.io.git</span><br><span class="line">   branch: master</span><br><span class="line">  -type: heroku</span><br><span class="line">   repo:</span><br><span class="line">   branch:</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p>7，主题配置<br>从 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a> 下载主题；<br>根据主题的说明进行安装。<br>主题文件夹要放在themes文件夹下，跟landscape并列<br><strong>_config.yml</strong>的theme字段要改为自定义主题的文件夹名称</p>
+<hr>
+<p>8，评论<br>有很多种类型，这里只介绍valine评论的设置</p>
+<p>valine评论     配置文档 <a href="https://valine.js.org/configuration.html" target="_blank" rel="noopener">https://valine.js.org/configuration.html</a></p>
+<p>valine是基于leancloud的。<br>在<a href="https://leancloud.cn" target="_blank" rel="noopener">https://leancloud.cn</a> 注册并登录，创建应用。在leancloud的设置-应用key，复制appid和appkey，填到valine的设置里。设置-安全中心-web安全域名填写自己的域名，否则评论组件会显示403权限问题。<br>valine使用gravatar头像系统 <a href="https://en.gravatar.com" target="_blank" rel="noopener">https://en.gravatar.com</a> 。在基于valine的评论中，你选用的邮箱会自动去匹配在gravatar中设置的头像。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">valine:</span><br><span class="line">   enable: true</span><br><span class="line">   appId: mgCAdSHToEJRc2FoFbWnWl3h-gzGzoHsz</span><br><span class="line">   appKey: 2u5UYgTFA3DjKyruRKb6X9FH</span><br><span class="line">   placeholder: 说点什么吧</span><br><span class="line">   notify: false   邮箱通知</span><br><span class="line">   verify: false   验证码</span><br><span class="line">   avatar: robohash   系统头像之一，有自定义头像会替换这个默认头像</span><br><span class="line">   meta: nick,mail,link   评论框顶部显示&quot;昵称\邮箱\网址&quot;</span><br><span class="line">   pageSize: 15</span><br><span class="line">   visitor: true 访问量统计</span><br></pre></td></tr></table></figure>
+<hr>
+<p>9：命令<br>创建文章：<br><code>hexo new [layout] &lt;title&gt;</code>  使用指定的布局新建一篇文章，layout布局，title文章名称。layout指向 /scaffolds目录下的布局文件的文件名,即post.md,draft.md,page.md,以及自定义的布局。<br>如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。<br>使用post布局生成的文件会出现在source/_posts中，使用draft布局生成的文件会出现在source/_draft中，使用page布局及自定义布局生成的文件，都直接出现在source文件夹中。</p>
+<p><code>hexo publish post 草稿文件名</code> 将草稿文件从source/_drafts移动到source/_posts</p>
+<p><code>hexo generate</code> 生成静态文件 可以简写为hexo g。参数： -d, –deploy 文件生成后立即部署网站     -w, –watch 监视文件变动。</p>
+<p><code>hexo publish [layout] &lt;filename&gt;</code>   发表草稿</p>
+<p><code>hexo server</code>   启动服务器，默认4000端口。参数：-p, –port重设端口。-s, –static只使用静态文件。-l, –log启动日记记录，使用覆盖记录格式</p>
+<p><code>hexo deploy</code>   部署网站。参数：-g, –generate，部署之前要先生成静态文件。简写hexo d。上传的位置是config.yml中的deploy下面的repo字段的地址</p>
+<p><code>hexo render &lt;file1&gt; [file2]</code> … 渲染文件。参数：  -o, –output设置输出路径。</p>
+<p><code>hexo clean</code>   清除缓存文件 (db.json) 和已生成的静态文件 (public)。在某些情况（尤其是更换主题后），您可能需要运行该命令。</p>
+<p><code>hexo list &lt;type&gt;</code> 列出网站资料。</p>
+<p><code>hexo version</code> 显示 Hexo 版本。</p>
+<p><code>hexo --draft</code>  显示 source/_drafts 文件夹中的草稿文章</p>
+<p><strong>总结一下，最常用的命令是：</strong><br><code>hexo new [layout] &lt;title&gt;</code>  使用指定的布局新建一篇文章<br><code>hexo clean &amp;&amp; hexo g -w</code> 清除缓存，生成静态文件，监听文件变化<br><code>hexo d</code> 上传部署到网站上</p>
+<p>由于生成的文章是markdown语法的.md文件，所以编辑文章的话，需要对markdown语法有一定了解。markdown语法使用的简单教程,请看下一篇文章。</p>
+
+    </div>
+
+    <div class="post-footer">
+        <div>
+            
+                转载声明：商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+            
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</article>
+
+<div class="article-nav prev-next-wrap clearfix">
+    
+        <a href="/2018/08/13/markdown语法简单教程/" class="pre-post btn btn-default" title='markdown语法简单教程'>
+            <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
+            <span class="hidden-xs">markdown语法简单教程</span>
+        </a>
+    
+    
+        <a href="/2018/08/09/hello-world/" class="next-post btn btn-default" title='Hello World'>
+            <span class="hidden-lg">下一篇</span>
+            <span class="hidden-xs">Hello World</span><i class="fa fa-angle-right fa-fw"></i>
+        </a>
+    
+</div>
+
+
+    <div id="comments">
+        
+    
+    <div id="vcomments" class="valine"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/assets/valine.min.js"></script>
+
+    <script>
+        new Valine({
+            av: AV,
+            el: '#vcomments',
+            appId: 'mgCAdSHToEJRc2FoFbWnWl3h-gzGzoHsz',
+            appKey: '2u5UYgTFA3DjKyruRKb6X9FH',
+            placeholder: '说点什么吧',
+            notify: false,
+            verify: false,
+            avatar: 'robohash',
+            meta: 'nick,mail,link'.split(','),
+            pageSize: '15',
+            path: window.location.pathname,
+            lang: 'zh-CN'.toLowerCase()
+        })
+    </script>
+
+
+    </div>
+
+
+
+
+
+                </main>
+                
+                    <aside id="article-toc" role="navigation" class="col-md-4">
+    <div class="widget">
+        <h3 class="title">文章目录</h3>
+        
+            <p>暂无目录</p>
+        
+    </div>
+</aside>
+
+                
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</footer>
+
+<a id="back-to-top" class="icon-btn hide">
+	<i class="fa fa-chevron-up"></i>
+</a>
+
+
+
+
+    <div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12"> 
+                <span>Copyright &copy; 2018
+                </span> | 
+                <span>
+                    Powered by <a href="//hexo.io" class="copyright-links" target="_blank" rel="nofollow">Hexo</a>
+                </span> | 
+                <span>
+                    Theme by <a href="//github.com/shenliyang/hexo-theme-snippet.git" class="copyright-links" target="_blank" rel="nofollow">Snippet</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/js/app.js?rev=@@hash"></script>
+
+
+</body>
+</html>

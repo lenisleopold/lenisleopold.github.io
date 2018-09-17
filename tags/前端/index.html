@@ -205,10 +205,8 @@
 </head>
 
     
-        <body class="home-body">
     
-    
-<header class="header index-header">
+<header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
@@ -226,34 +224,21 @@
 
 
 
-height:50vh;
-
 >
     
     <!-- 主页  -->
-    
-    
-    <!-- 文章页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/intro/index-bg.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(/)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
-            leopold's Blog
-            <!-- 文章页  -->
-            
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
-            
-            
-                keep moving
-            
-            <!-- 文章页  -->
             
         </p>
         <!-- 文章页meta -->
@@ -365,170 +350,6 @@ height:50vh;
     
     
     <article class="index-post">
-        <a class="abstract-title" href = "/2018/09/17/CORS跨域服务器设置/" >
-            
-                <span>CORS跨域服务器设置</span>
-        </a>
-        <div class="abstract-content">
-            CORS即Cross-Origin Resource Sharing，跨域资源共享CORS分为两种
-一：简单的跨域请求，流程如下网页：当HTTP请求同时满足以下两种情况时，浏览器认为是简单跨请求
-1)，请求的方法是get，head或者post，同时Content-Type是application/x-www-form-urlencoded, multipart/form-data 或 text/plain中的一个值，或者不设置也可以，一般默认就是application/x-www-form-urlencoded。
-2)，请求中没有自定义的HTTP头部，如x-token。(应该是这几种头部...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/09/17</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "跨域">跨域</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "express/koa">express/koa</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2018/08/14/使用google analytics/" >
-            
-                <span>使用google analytics</span>
-        </a>
-        <div class="abstract-content">
-            前提：需要能科学上网
-注册https://marketingplatform.google.com/about/analytics/点击 start for free
-
-点击注册
-填写你要进行分析的网站
-选择跟踪代码
-复制跟踪ID
-接下来就是根据你的网站的情况，结合api使用说明来使用google analytics。
-如果跟我一样是github博客，并且使用了hexo框架，并且安装的主题支持analytics(大部分都支持)的话，接下来的操作应该是这样的：找到你的项目下的thems文件夹下主题文件夹里的_config.yml文件
-
-找到里面analytics的配置，把google an...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/08/14</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "前端周边">前端周边</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2018/08/13/markdown语法简单教程/" >
-            
-                <span>markdown语法简单教程</span>
-        </a>
-        <div class="abstract-content">
-            标题1234567# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题展示效果如下
-一级标题二级标题三级标题四级标题五级标题六级标题
-注释123456789101112[](第一种注释)aaa[这里可以写任何东西]:第二种注释bbb&lt;!--第三种注释--&gt;ccc展示效果如下
-aaa
-bbb
-
-ccc
-
-无序列表以-、+、*这三个字符开头的行是无序列表项12345678910111213+ q+ w+ e- a- b- c* q* w* e展示效果如下
-
-q
-w
-e
-
-
-a
-b
-c
-
-
-q
-w
-e
-
-
-嵌套列表123456789...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/08/13</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "markdown语法">markdown语法</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2018/08/13/使用hexo创建github博客/" >
-            
-                <span>使用hexo创建github博客</span>
-        </a>
-        <div class="abstract-content">
-            1：要先拥有一个https://username.github.io 空间, 这个很简单，请自行百度。
-
-2：安装node，yarn(不必须，用npm 也可以)
-
-3：安装 hexo-cli   yarn global add hexo-cli      安装一些插件12yarn add hexo-server hexo-deployer-git hexo-generator-archive hexo-generator-category hexo-generator-index hexo-generator-json-content@2.2.0 hexo-generator-tagya...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/08/13</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "github">github</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "markdown">markdown</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "博客">博客</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
         <a class="abstract-title" href = "/2018/08/09/hello-world/" >
             
                 <span>Hello World</span>
@@ -560,95 +381,6 @@ More...
     
 </main>
             <!-- profile -->
-            
-            <div class="profile">
-    <img class="profile-avatar" src= /avatar/myAvatar.png >
-    <div class="profile-name">leopold</div>
-    
-    <div class="profile-signature">
-        keep moving
-    </div>
-    
-    
-    <div class="profile-social">
-        
-    
-        
-            
-                <a href="mailto:1013696156@qq.com" class="iconfont-archer email" title=email ></a>
-            
-        
-    
-        
-            
-                <a href="//github.com/lenisleopold" class="iconfont-archer github" target="_blank" title=github></a>
-            
-        
-    
-        
-            
-                <span class="iconfont-archer wechat" title=wechat>
-                  
-                  <img class="profile-qr" src="/assets/youda.jpg" />
-                </span>
-            
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-
-    </div>
-    
-    
-        <div class="friends">
-            <div>FRIENDS</div>
-            
-                
-                    <span>
-                        <a href= https://helloweb.top target="_black">我的网站</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= https://blog.csdn.net/liangzhenAAAAA target="_black">我的csdn</a>
-                    </span>
-                
-            
-        </div>
-    
-    
-        <div class="about-me">
-            <a href = "/about" >ABOUT ME</a>
-        </div>
-    
-</div>
             
         </div>
         <footer class="footer footer-unloaded">
